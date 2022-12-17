@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap'); </style>
+    <title>Cadastro de medicamentos</title>
+    <link rel="stylesheet" href="estilo_medic.css">
+</head>
+<body>
+    <header>
+        <h3>Home</h3>
+       <h3>
+        Cadastro <br>de Medicamentos
+       </h3>
+       <h3>
+        Cadastro <br>de Vacinas
+       </h3>
+       <h3>
+        Cadastro <br>de Cosméticos
+       </h3>  
+    </header>
+    <div id="cabeca">
+        <img src="./remedios.png" width="200px">
+        <h1 class="title">Cadastro de Medicamentos</h1>
+        <h3 id="sub">Farmácia da Gente</h3>
+    </div>
+
+    <section id="sec-form">
+        <div id="forms">
+            <form onsubmit="addmedic">
+                <label for="medName">Nome do Medicamento*</label>
+                <input autocomplete="off" type="text" required id="mname" name="medName"><br>
+
+                <label for="medQuant">Quantidade Disponível*</label>
+                <input autocomplete="off" type="text" required id="mquant" name="medQuant"><br>
+
+                <label for="medPreco">Preço por unidade*</label>
+                <input autocomplete="off" type="text" required id="mpreco" name="medPreco"><br>
+
+                <label for="medClass">Classe de Medicamento*</label>
+                <input autocomplete="off" type="text" required id="mclass" name="medClass"><br>
+                <button type="submit" class="botao">Cadastrar</button>
+            </form>
+        </div>
+    </section>         
+    <script src="main.js"></script>   
+</body>
+</html>
