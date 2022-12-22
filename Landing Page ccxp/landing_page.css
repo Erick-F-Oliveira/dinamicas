@@ -1,0 +1,148 @@
+
+
+#faixa{
+    position: absolute;
+    width: 1490px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFD900;
+}
+
+#logo{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+  
+#corpo{
+    background-color: #514988;
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    left: 0px;
+    top: 118px;
+}
+  
+h1{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 53px;
+    line-height: 85px;
+    align-items: center;
+    text-align: center;
+    color: #F3C61F
+}
+
+#data{
+    font-family: 'Verdana';
+    text-align: center;
+    color:#ffffff
+}
+  
+
+#info{
+    font-family: 'Verdana';
+    text-align: center;
+    color:#ffffff;
+    padding: 50px;
+    font-weight: 600px;
+    font-size: 23px;
+
+}
+
+#footer{
+    
+    
+    background-color: #ffffff;
+    font-family: 'Verdana';
+    font: bold;
+    font-weight: 600;
+    font-size: 23px;
+    padding: 6px; /*remover?*/
+    align-items: center;
+    text-align: center;
+    color: #F3C61F
+}
+
+video{
+    position: absolute;
+    left: 730px;
+    top: 150px;
+    
+}
+
+#card{
+    position: absolute;
+    top: 680px;
+}
+
+
+#sub{
+    position: absolute;
+    width: 741px;
+    height: 36px;
+    left: 3px;
+    top: 110px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left:0px;
+    color: #E33881;
+}
+
+.timer{
+    display: flex;    
+    position: absolute;
+    width: 230px;
+    height: 160px;
+    left: 750px;
+    top: 0px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 50px;
+    line-height: 85px;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+    
+}
+
+#hora{
+  padding-left:30px;
+  }
+#minuto{
+  padding-left:30px;
+}
+
+#segundo{
+    padding-left:30px;
+}
+  
+
+button{
+    background-color:#514988;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 43px;
+    color: #ffffff;
+    position: absolute;
+    width: 590px;
+    height: 140px;
+    left: 780px;
+    top: 700px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+button:hover{
+    background-color: #443d70;
+    cursor: pointer;
+    color: #F3C61F;
+}
